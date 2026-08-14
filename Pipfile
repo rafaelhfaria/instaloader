@@ -20,4 +20,5 @@ pip-licenses = "*"
 
 [packages]
 requests = "*"
+httpx = {extras = ["http2"], version = "*"}
 browser-cookie3 = "*"
